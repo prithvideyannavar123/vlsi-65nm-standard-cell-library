@@ -1,0 +1,39 @@
+# Cadence Virtuoso
+*.log
+*.cdslck
+*.sdb
+cds.lib
+.cdsenv
+.cdsinit
+simulation/
+*.raw
+*.asc
+*.ic0
+*.ic
+
+# Calibre
+*.svdb
+*.db
+*.drc.results
+*.lvs.report
+*.pex.netlist*
+svdb/
+
+# Spectre
+*.psf
+*.tran*
+spectre.out
+
+# Generic
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Large binary/proprietary files
+*.gds
+*.oas
+*.cdba
